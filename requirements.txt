@@ -1,0 +1,6 @@
+bitarray==2.8.2
+bitstring==4.1.2
+numpy==1.26.1
+opencv-python==4.8.1.78
+Pillow==10.1.0
+prettyprint==0.1.5
