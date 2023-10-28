@@ -24,15 +24,18 @@ Populating tree edges with 0's and 1's for bitstring representations for intensi
 Saving bitstring representations: 
 {0: '10',
  1: '1101',
-...
+ 2: '111010',
+ ...
  255: '0'}
 ++++++++++++++++++++++++++++++++++++++
 Original Theoretical File Size:  261042 bytes * 8 bits =  2088336 bits
-Theoretical encoded string size:  851846 bits
+Theoretical Encoded Bitstring Size:  851846 bits
 (+ neglible tree storage for a large volume of images)
 Compression ratio:  26.10602125328491 %
 ++++++++++++++++++++++++++++++++++++++
 Checking Decoding against original image using tree: 
+(may take a while)
 Decoded Successfully!
+
 
 ```

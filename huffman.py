@@ -193,7 +193,7 @@ Saving the binary file. The image files already have better compression than we
 Can implement so the binary file is bigger than the picture file, so we are assuming
 Theoretical space storage
 '''
-file = open("compressed_ " +"imgpath"+ ".bin", 'wb')
+file = open("compressed_ " + imgpath[:-4] + ".bin", 'wb')
 obj = BitArray(bin=encodedstring)
 obj.tofile(file)
 file.close()
